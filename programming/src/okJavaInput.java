@@ -9,8 +9,8 @@ public class okJavaInput {
 
 	public static void main(String[] args) {
 		
-		String id = JOptionPane.showInputDialog("enter a id");
-		String bright = JOptionPane.showInputDialog("set brightness");
+		String id = args[0]; //JOptionPane.showInputDialog("enter a id")
+		String bright = args[1]; //JOptionPane.showInputDialog("set brightness")
 		
 		//elevator
 		Elevator myElevator = new Elevator(id);
