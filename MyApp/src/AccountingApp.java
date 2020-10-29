@@ -2,7 +2,7 @@
 public class AccountingApp {
 
 	public static void main(String[] args) {
-		double ValueOfSupply = 10000.0;		
+		double ValueOfSupply = Double.parseDouble(args[0]);	
 		double vatRate = 0.1;
 		double expenseRate = 0.3;
 		double VAT = ValueOfSupply*vatRate;
